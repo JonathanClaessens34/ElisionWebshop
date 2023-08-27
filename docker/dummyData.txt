@@ -1,0 +1,367 @@
+INSERT INTO product (id,name,price,description,color,brand,category,sale,sale_percentage) VALUES
+                                                                         (1, 'Apple iPhone 14 128GB Midnight', 1019.00, 'Apple iPhone 14 128GB Midnight is een alleskunner. Met de verbeterde standaard- en groothoeklens maak je nog scherpere foto\'s dan zijn voorganger, Apple iPhone 13. Daarnaast heeft de TrueDepth selfiecamera autofocus. Zo ligt de focus sneller op je gezicht en blijft het beeld bijvoorbeeld scherp als je beweegt tijdens het videobellen, ook bij weinig licht.','Zwart','Apple',0, false, 0),
+
+                                                                         (2, 'Apple iPhone 14 Pro 128GB Space Black', 1329.00, 'Apple iPhone 14 Pro 128GB Space Black heeft geen notch meer. Alle sensoren zitten nu verwerkt in een pilvormige inkeping genaamd Dynamic Island. Daar zie je bijvoorbeeld notificaties van apps. Op het handige always-on scherm zie je altijd je widgets. Dankzij de 48 megapixel standaardlens maak je nu nog gedetailleerdere foto\'s in het donker.','Zwart','Apple',0, true, 0.1),
+
+                                                                         (3, 'Apple iPhone 13 128GB Groen', 909.00, 'Met Apple iPhone 13 128GB Groen maak je scherpere foto\'s dan met zijn voorgangers. Dankzij de verbeterde camera\'s maak je ook bij weinig licht heldere en kleurrijke foto\'s. Apple heeft ook de beeldstabilisatie verbeterd. Hierdoor zijn je foto\'s minder snel bewogen en daardoor dus nog scherper. Met de nieuwe Cinematic Mode verwissel je het object of de persoon waarop je scherpstelt zowel tijdens als na het filmen.','Groen','Apple',0, false, 0),
+
+                                                                         (4, 'Apple iPhone 13 Pro 256GB Blauw', 1279.00, 'Geniet van vloeiende bewegingen tijdens het scrollen of lees comfortabel een artikel dankzij het 6,1 inch ProMotion scherm van Apple iPhone 13 Pro 256GB Blauw. Op het 256 GB geheugen heb je genoeg ruimte voor al je apps, foto\'s en video\'s. De verversingssnelheid van het scherm past zich constant aan aan wat je doet.','Blauw','Apple',0, false, 0),
+
+                                                                         (5, 'Samsung Galaxy S21 128GB Grijs 5G', 679.00, 'De Samsung Galaxy S21 128GB Grijs 5G is één van de weinige smartphones die een grote rekenkracht combineert met een handzaam formaat. Je bedient het toestel met het 6,2 inch full hd scherm gemakkelijk met één hand. Het scherm ververst 120 keer per seconde. Hierdoor zien animaties tijdens bijvoorbeeld games er vloeiend uit.','Grijs','Samsung',0, false, 0),
+
+                                                                         (6, 'Samsung Galaxy S22 128GB Zwart 5G', 849.00, 'De Samsung Galaxy S22 128GB Zwart 5G is één van de weinige smartphones die naast krachtig ook compact is. Het toestel past gemakkelijk in je zak en je bedient het 6,1 inch full hd scherm gemakkelijk met één hand. Achter op de smartphone zitten 3 camera\'s. Op zowel de standaard-, groothoek- als telelens zit een nachtmodus.','Zwart','Samsung',0, false, 0),
+
+                                                                         (7, 'Samsung Galaxy S22 Ultra 256GB Zwart 5G', 1349.00, 'De Samsung Galaxy S22 Ultra 256GB Zwart 5G is een smartphone met geavanceerde camera\'s. Dankzij de dubbele telelens zoom je 10 keer in zonder dat je foto minder scherp wordt. De telelenzen hebben net als de standaard- en groothoeklens een nachtmodus. Hierdoor zijn je foto\'s en 8K video\'s ook scherp en kleurrijk bij weinig licht.','Zwart','Samsung',0, false, 0),
+
+                                                                         (8, 'Samsung Galaxy Z Flip 4 256GB Grijs 5G', 1149.00, 'De vouwbare Samsung Galaxy Z Flip 4 256GB Grijs 5G heeft een groot 6,7 inch full hd scherm, dat je vanwege het formaat moeilijk met één hand bedient.','Grijs','Samsung',0, false, 0),
+                                                                         (9, 'OnePlus 10 Pro 256GB Zwart 5G', 799.00, 'De OnePlus 10 Pro 256GB Zwart 5G is een krachtige smartphone met een grote 5.000 mAh batterij. Bij gemiddeld gebruik gaat de smartphone daarom gemakkelijk een dag mee. Bovendien laad je het toestel binnen een half uur weer volledig op met de meegeleverde oplader.','Zwart','OnePlus',0, false, 0),
+                                                                         (10, 'OnePlus Nord 2T 256GB Grijs 5G', 429.00, 'De OnePlus Nord 2T 256GB Grijs 5G is een krachtige, middenklasse smartphone die razendsnel is bij gemiddeld gebruik. Zo schakel je soepel tussen apps als Instagram, Spotify en YouTube. Achterop zitten 3 camera\'s waarmee je redelijke foto\'s maakt. Met de groothoeklens passen ook grote gebouwen of de hele familie volledig op de foto. ','Zwart','OnePlus',0, false, 0)	,
+
+                                                                         (11, 'HP Pavilion 15-eg2012nb Azerty', 999.00, 'De HP Pavilion 15-eg2012nb is een 15 inch laptop die geschikt is voor multitasking en foto- en videobewerking. Met de 12e generatie Intel Core i7 processor en het 16 gigabyte werkgeheugen is de laptop hier krachtig genoeg voor. Bovendien behaalt hij met deze processor hogere prestaties en is hij toekomstbestendiger dan met een processor van de vorige generatie.','Zilver','HP',1, true, 0.2),
+
+                                                                         (12, 'HP OMEN 16-b1004nb Azerty', 1499.00, 'De HP OMEN 16-b1004nb is een 16 inch laptop die geschikt is voor gaming en videobewerking. Met het DDR5 werkgeheugen is de laptop energiezuiniger en toekomstbestendiger dan laptops met een DDR3 of DDR4 werkgeheugen. Je speelt met de NVIDIA GeForce RTX 3050 Ti videokaart games als Call of Duty: Warzone op de hoogste instellingen.','Zwart','HP',1, false, 0),
+
+                                                                         (13, 'Lenovo Thinkpad T15 G2 Azerty', 1199.00, 'Bewerk professionele foto\'s in Photoshop en werk aan zakelijke rapportages op de 15 inch Lenovo Thinkpad T15 G2 - 20W4S03702 AZERTY (Repacked). Met een Intel Core i5 processor en 16 gigabyte werkgeheugen is de Thinkpad T15 G2 daar krachtig genoeg voor. ','Zwart','Lenovo',1, false, 0),
+
+                                                                         (14, 'Lenovo IdeaPad 5 Azerty', 799.00, 'Bewerk foto\'s en video\'s en multitask met Adobe en Microsoft programma\'s op de 15 inch Lenovo IdeaPad 5 15ITL05 82FG01P2MB. Door de Intel Core i7 processor en het 16 gigabyte werkgeheugen werk je probleemloos in zware programma\'s als Photoshop en Premiere Pro.','Zilver','Lenovo',1, false, 0),
+
+                                                                         (15, 'Acer Aspire 5 Azerty', 1249.00, 'De Acer Aspire 5 (A515-57G-75XC) is een 15 inch laptop die geschikt is voor multitasking en foto- en videobewerking. Met de 12e generatie Intel Core i7 processor, behaalt de laptop hogere prestaties en is hij toekomstbestendiger dan met oudere generaties. Je bewerkt foto\'s en video\'s en multitaskt tussen zware programma\'s, zoals Adobe Premiere Pro en Photoshop.','Grijs','Acer',1, false, 0),
+
+                                                                         (16, 'Acer Nitro 5 Azerty', 1199.00, 'Op de 15 inch Acer Nitro 5 (AN515-45-R114) gaming laptop speel je jouw favoriete games. Met de NVIDIA GeForce RTX 3060 videokaart speel je middelzware games op hoge instellingen. Snel bewegende beelden zie je daarnaast vloeiend op het beeldscherm met 144 hertz verversingssnelheid, wat goed van pas komt bij shooters.','Zwart','Acer',1, false, 0),
+
+                                                                         (17, 'Asus Vivobook Pro 15', 1249.00, 'De Asus Vivobook Pro 15 OLED M3500QC-L1079W-BE is een 15 inch laptop die ideaal is voor videobewerking en multitasken. Door de AMD Ryzen 7 processor en het 16 gigabyte werkgeheugen bewerk je probleemloos grote foto- of videobestanden, terwijl je op de achtergrond programma\s draait. Ook kijk je gerust een film of serie. Op het OLED beeldscherm zie je namelijk elk detail en alle kleuren natuurgetrouw.','Zwart','Asus',1, false, 0),
+
+                                                                         (18, 'Asus TUF Gaming Azerty', 1649.00, 'Speel je favoriete games op de 17 inch Asus TUF Gaming F17 FX706HM-HX004W-BE. Met de NVIDIA GeForce RTX 3060 videokaart speel je games als Far Cry 6 op de hoogste instellingen. Bovendien multitask je zonder problemen tussen zware programma¿s door de combinatie van de Intel Core i7 processor en het 16 gigabyte werkgeheugen.','Zwart','Asus',1, false, 0),
+
+                                                                         (19, 'Apple MacBook Pro 14"', 1949.00, 'Multitask met zware programma\'s en bewerk video\'s in hoge resolutie op Apple MacBook Pro 14" (2021) M1 Pro (8 core CPU/14 core GPU) 16GB/512GB Space Gray AZERTY. Dat doe je dankzij de krachtige Apple M1 Pro chip zonder vertraging. Op het Liquid Retina XDR beeldscherm zie je natuurgetrouwe kleuren en hoge contrasten.','Zilver','Apple',1, false, 0),
+
+                                                                         (20, 'Apple Macbook Air (2022) Apple M2','1399.00','Multitask met zware programma\'s en bewerk video\'s in hoge resolutie op Apple MacBook Pro 14" (2021) M1 Pro (8 core CPU/14 core GPU) 16GB/512GB Space Gray AZERTY. Dat doe je dankzij de krachtige Apple M1 Pro chip zonder vertraging. Op het Liquid Retina XDR beeldscherm zie je natuurgetrouwe kleuren en hoge contrasten.','Zilver','Apple',1, false, 0),
+
+                                                                         (21, 'Samsung QD OLED 65" (2022)','1699.00','Met de Samsung QD OLED 55S95B (2022) geniet je van levensechte, contrastrijke beelden. Het slanke OLED scherm bestaat uit miljoenen pixels die individueel oplichten of dimmen. Hierdoor zijn lichte delen van het beeld erg helder en zwarte delen juist erg donker. Dit grote contrast zorgt voor levensechte beelden. ','Zwart','Samsung',2, false, 0),
+
+                                                                         (22, 'Samsung Neo QLed 55"', '999.00','Met de Samsung Neo QLED 55QN85B (2022) bekijk je al jouw favoriete content op een kleurrijk beeld. De televisie heeft een dun ontwerp van 27 millimeter. Door de Neo QLED techniek bestaat het beeldscherm uit duizenden lampjes die individueel dimmen en oplichten.','Zwart','Samsung',2, false, 0),
+
+                                                                         (23, 'LG OLED65C24LA 65" (2022)', '1699.00','Met de LG OLED65C24LA bekijk je levensechte beelden met een sterk contrast, hoge helderheid en realistische kleurdetails. Omdat iedere pixel van het OLED scherm apart oplicht of dimt, wordt ieder deel van het beeld nauwkeurig aangestuurd. Zo is een donkere schaduw echt diep zwart en een fel licht echt helder.','Zwart','LG',2, true, 0.3),
+
+                                                                         (24, 'Sony Bravia OLED 65" (2022)', '1799.00','Met de Sony Bravia OLED XR-65A75KP (2022) komen je favoriete films, series en games levensecht in beeld. Het OLED scherm bestaat uit miljoenen pixels die individueel oplichten of dimmen. Hierdoor geeft de tv heel precies kleuren weer en zijn zwarte delen van het beeld écht zwart.','Zwart','Sony',2, false, 0),
+
+                                                                         (25, 'Philips 48OLED707 - Ambilight 48" (2022)', '1199.00','De Philips 48OLED707 - Ambilight (2022) biedt een meeslepende kijkervaring met levensechte beelden. De tv is uitgerust met een 4K OLED scherm. Dit scherm bevat individueel oplichtende of dimmende pixels, waardoor je beelden bekijkt met een krachtig contrast. Zo zie je de details in schaduwen en zijn donkere beelden écht donker.','Zwart','Philips',2, false, 0),
+
+                                                                         (26, 'Samsung The Frame 75LS03B 75" (2022)', '2399.00','Met de Samsung The Frame 75LS03B (2022) haal je een veelzijdig en stijlvol kunstwerk in huis. Kies zelf of je deze QLED tv met zijn pootjes op een meubel zet of met de meegeleverde Slim Fit Wall Mount strak tegen de muur hangt. Dankzij het dunne ontwerp van 25 millimeter, hangt The Frame ook echt plat tegen de muur.','Zwart','Samsung',2, false, 0),
+
+                                                                         (27, 'Samsung Crystal UHD 50TU7020 50" (2020)', '499.00','Met de Samsung Crystal UHD 50TU7020 bekijk je al je online entertainment in een scherpe beeldkwaliteit. Door de 4K UHD resolutie zijn ook kleine details duidelijk zichtbaar, zoals insecten in een natuurfilm of bladeren aan een boom. Dankzij de Crystal Processor 4K van Samsung bekijk je kleurrijke en heldere beelden.','Zwart','Samsung',2, false, 0),
+
+                                                                         (28, 'Sony Bravia OLED XR-55A80J 55"', '1099.00','Met de Sony Bravia OLED XR-55A80J komen je favoriete films en series levensecht in beeld met realistisch geluid. Deze 4K OLED tv gebruikt miljoenen pixels die individueel oplichten en dimmen, zodat de tv beelden met een krachtig contrast toont. Dit betekent dat het verschil tussen het diepste zwart en de felste kleuren erg groot is.','Zwart','Sony',2, false, 0),
+
+                                                                         (29, 'LG 43" NANO766QA (2022)', '599.00','Met de LG 43NANO766QA (2022) kijk je naar gedetailleerde, kleurrijke beelden. Deze 4K televisie is namelijk uitgerust met de NanoCell technologie. Dit betekent dat er een laag minuscule deeltjes op het scherm zit, die onnodige lichtgolven tegenhoudt. Hierdoor zie je alleen de juiste kleuren in beeld en geniet je van een pure kleurweergave.','Zwart','LG',2, false, 0),
+
+                                                                         (30, 'LG 8K 65" NANO966PA (2021)', '1599.00','Met de LG 65NANO966PA (2021) bekijk je levensechte gedetailleerde beelden met een krachtig contrast. Dankzij de 8K resolutie komen kleine details scherp in beeld, zoals bladeren aan een boom of de vacht van een dier. De NanoCell technologie zorgt ervoor dat je alleen de kleuren ziet die bedoeld zijn om in beeld te komen, ook als je schuin kijkt.','Zwart','LG',2, false, 0),
+
+                                                                         (31, 'Ultimate Ears MEGABOOM 3 Zwart', '179.00','Met de Ultimate Ears MEGABOOM 3 geef je gemakkelijk een groot huis- of zwembadfeest. Deze krachtige Bluetooth speaker heeft een stof- en waterbestendig ontwerp. Hierdoor leg je hem probleemloos in het zand of natte gras. Als de speaker vies wordt, spoel je hem gewoon af onder de kraan.','Zwart','UltimateEars',3, false, 0),
+
+                                                                         (32, 'JBL Charge Essential 2', '88.00','Neem de JBL Charge Essential mee naar het zwembad en geniet in de zon van je favoriete nummers. Deze bluetooth speaker is dankzij zijn IPX7 certificering waterdicht. Zo plaats je hem op de rand van het zwembad en gaat hij niet stuk door waterschade.','Grijs','JBL',3, false, 0),
+
+                                                                         (33, 'JBL Boombox 2 Zwart', '299.00','Met de JBL Boombox 2 voorzie je elk feestje van krachtig geluid. Dankzij de passieve basradiatoren aan de zijkant van de bluetooth speaker geniet je van een volle bas. De accu gaat bij gemiddeld volume tot wel 24 uur mee waardoor je niet snel zonder muziek komt te zitten. Neem de speaker gerust mee naar het strand of zwembad het waterbestendige ontwerp.','Zwart','JBL',3, false, 0),
+
+                                                                         (34, 'Sony WH-1000XM5 Zwart', '329.00','De Sony WH-1000XM5 is een draadloze koptelefoon met topklasse noise cancelling. Dankzij de 2 noise cancelling processors weet de koptelefoon omgevingsgeluid zeer nauwkeurig te dempen. Zo heb je minder last van je omgeving en zet je het volume van de muziek niet onnodig hard.','Zwart','Sony',3, false, 0),
+
+                                                                         (35, 'Bose QuietComfort 45 Zwart','269.00','Geniet van muziek zonder gestoord te worden met de Bose QuietComfort 45. De koptelefoon beschikt over actieve noise cancelling, waardoor omgevingsgeluid gedempt wordt. Zo luister je zelfs in de meest luidruchtige omgeving naar je favoriete nummers. Op een volle lading gaat de koptelefoon 24 uur mee.','Zwart','Bose',3, true, 0.5),
+
+                                                                         (36, 'Apple AirPods Pro 2','298.00','Met Apple AirPods Pro 2 focus jij je helemaal op de muziek. Deze oordopjes beschikken over noise cancelling, waardoor omgevingsgeluid en ruis wordt gedempt. Zo heb je minder last van je omgeving, waar je ook bent. Dat is ideaal in het openbaar vervoer en op kantoor. De nieuwe H2 chip zorgt voor een hogere geluidskwaliteit, betere noise cancelling en een stabielere verbinding dan de H1 chip. ','Wit','Apple',3, false, 0),
+
+                                                                         (37, 'Sony LinkBuds S Zwart','129.00','Met de Sony LinkBuds S geniet je van je favoriete nummers, zelfs in de meest rumoerige ruimtes. Deze compacte volledig draadloze in ear oordopjes beschikken over noise cancelling, waardoor omgevingsgeluid wordt gedempt. Zo zet je het volume niet onnodig harder om je muziek goed te horen. Met de Sony Headphones Connect app personaliseer je de geluidsweergave via een equalizer.','Zwart','Sony',3, false, 0),
+
+                                                                         (38, 'Samsung HW-Q950A','819.00','Met de Samsung HW-Q950A creëer je bioscoopgeluid in je woonkamer. De subwoofer weergeeft de diepste bastonen naast het heldere geluid van de soundbar. Dankzij de meegeleverde achterspeakers komt het geluid van alle kanten, waardoor films en series tot leven komen. De speakers ondersteunen de Dolby Atmos technologie.','Zwart','Samsung',3, false, 0),
+
+                                                                         (39, 'Sonos Arc 5.1 + Sub + One Duopack Wit','1679.00','Met de Sonos Arc 5.1 + Sub + One Gen2 Duopack haal je een 5.1 surround opstelling in huis. De set bestaat uit een soundbar, subwoofer en 2 draadloze achterspeakers. Zo komt het geluid van alle kanten. De soundbar beschikt over Dolby Atmos. Dit betekent dat de 2 ingebouwde omhoog gerichte speakers het geluid via het plafond naar je luisterpositie kaatsen.','Wit','Sonos',3, false, 0),
+
+                                                                         (40, 'JBL Bar 1000 Pro Zwart','999.00','Kruip in de huid van de hoofdpersoon uit je favoriete film met de JBL Bar 1000 Pro. Je luistert naar een helder en vol geluid dankzij de 7 speakers in de soundbar. De achterspeakers in combinatie met de Dolby Atmos creëren een surround sound ervaring die je volledig in de fictieve wereld op je scherm trekt. Gebruik de PureVoice spraakassistentie en stuur de soundbar met spraakopdrachten aan.','Zwart','JBL',3, false, 0);
+
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (1, 'iphone14_1.avif'),
+                                                     (1, 'iphone14_2.avif'),
+                                                     (1, 'iphone14_3.avif'),
+                                                     (1, 'iphone14_4.avif'),
+                                                     (1, 'iphone14_5.avif'),
+                                                     (1, 'iphone14_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (2, 'iphone14PRO_1.avif'),
+                                                     (2, 'iphone14PRO_2.avif'),
+                                                     (2, 'iphone14PRO_3.avif'),
+                                                     (2, 'iphone14PRO_4.avif'),
+                                                     (2, 'iphone14PRO_5.avif'),
+                                                     (2, 'iphone14PRO_6.avif');
+
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (3, 'iphone13_1.avif'),
+                                                     (3, 'iphone13_2.avif'),
+                                                     (3, 'iphone13_3.avif'),
+                                                     (3, 'iphone13_4.avif'),
+                                                     (3, 'iphone13_5.avif'),
+                                                     (3, 'iphone13_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (4, 'iphone13PRO_1.avif'),
+                                                     (4, 'iphone13PRO_2.avif'),
+                                                     (4, 'iphone13PRO_3.avif'),
+                                                     (4, 'iphone13PRO_4.avif'),
+                                                     (4, 'iphone13PRO_5.avif'),
+                                                     (4, 'iphone13PRO_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (5, 'samsungs21_1.avif'),
+                                                     (5, 'samsungs21_2.avif'),
+                                                     (5, 'samsungs21_3.avif'),
+                                                     (5, 'samsungs21_4.avif'),
+                                                     (5, 'samsungs21_5.avif'),
+                                                     (5, 'samsungs21_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (6, 'samsungs22_1.avif'),
+                                                     (6, 'samsungs22_2.avif'),
+                                                     (6, 'samsungs22_3.avif'),
+                                                     (6, 'samsungs22_4.avif'),
+                                                     (6, 'samsungs22_5.avif'),
+                                                     (6, 'samsungs22_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (7, 'samsungs22ULTRA_1.avif'),
+                                                     (7, 'samsungs22ULTRA_2.avif'),
+                                                     (7, 'samsungs22ULTRA_3.avif'),
+                                                     (7, 'samsungs22ULTRA_4.avif'),
+                                                     (7, 'samsungs22ULTRA_5.avif'),
+                                                     (7, 'samsungs22ULTRA_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (8, 'samsungsZFlip4_1.avif'),
+                                                     (8, 'samsungsZFlip4_2.avif'),
+                                                     (8, 'samsungsZFlip4_3.avif'),
+                                                     (8, 'samsungsZFlip4_4.avif'),
+                                                     (8, 'samsungsZFlip4_5.avif'),
+                                                     (8, 'samsungsZFlip4_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (9, 'oneplus10pro_1.avif'),
+                                                     (9, 'oneplus10pro_2.avif'),
+                                                     (9, 'oneplus10pro_3.avif'),
+                                                     (9, 'oneplus10pro_4.avif'),
+                                                     (9, 'oneplus10pro_5.avif'),
+                                                     (9, 'oneplus10pro_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (10, 'oneplus2t_1.avif'),
+                                                     (10, 'oneplus2t_2.avif'),
+                                                     (10, 'oneplus2t_3.avif'),
+                                                     (10, 'oneplus2t_4.avif'),
+                                                     (10, 'oneplus2t_5.avif'),
+                                                     (10, 'oneplus2t_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (11, 'hpPavillion15_1.avif'),
+                                                     (11, 'hpPavillion15_2.avif'),
+                                                     (11, 'hpPavillion15_3.avif'),
+                                                     (11, 'hpPavillion15_4.avif'),
+                                                     (11, 'hpPavillion15_5.avif'),
+                                                     (11, 'hpPavillion15_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (12, 'hpOmen16_1.avif'),
+                                                     (12, 'hpOmen16_2.avif'),
+                                                     (12, 'hpOmen16_3.avif'),
+                                                     (12, 'hpOmen16_4.avif'),
+                                                     (12, 'hpOmen16_5.avif'),
+                                                     (12, 'hpOmen16_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (13, 'LenovoThinkpadT15_1.avif'),
+                                                     (13, 'LenovoThinkpadT15_2.avif'),
+                                                     (13, 'LenovoThinkpadT15_3.avif'),
+                                                     (13, 'LenovoThinkpadT15_4.avif'),
+                                                     (13, 'LenovoThinkpadT15_5.avif'),
+                                                     (13, 'LenovoThinkpadT15_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (14, 'LenovoIdeaPad5_1.avif'),
+                                                     (14, 'LenovoIdeaPad5_2.avif'),
+                                                     (14, 'LenovoIdeaPad5_3.avif'),
+                                                     (14, 'LenovoIdeaPad5_4.avif'),
+                                                     (14, 'LenovoIdeaPad5_5.avif'),
+                                                     (14, 'LenovoIdeaPad5_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (15, 'AcerAspire5_1.avif'),
+                                                     (15, 'AcerAspire5_2.avif'),
+                                                     (15, 'AcerAspire5_3.avif'),
+                                                     (15, 'AcerAspire5_4.avif'),
+                                                     (15, 'AcerAspire5_5.avif'),
+                                                     (15, 'AcerAspire5_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (16, 'AcerNitro5_1.avif'),
+                                                     (16, 'AcerNitro5_2.avif'),
+                                                     (16, 'AcerNitro5_3.avif'),
+                                                     (16, 'AcerNitro5_4.avif'),
+                                                     (16, 'AcerNitro5_5.avif'),
+                                                     (16, 'AcerNitro5_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (17, 'AsusVivobookPro_1.avif'),
+                                                     (17, 'AsusVivobookPro_2.avif'),
+                                                     (17, 'AsusVivobookPro_3.avif'),
+                                                     (17, 'AsusVivobookPro_4.avif'),
+                                                     (17, 'AsusVivobookPro_5.avif'),
+                                                     (17, 'AsusVivobookPro_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (18, 'AsusTuf_1.avif'),
+                                                     (18, 'AsusTuf_2.avif'),
+                                                     (18, 'AsusTuf_3.avif'),
+                                                     (18, 'AsusTuf_4.avif'),
+                                                     (18, 'AsusTuf_5.avif'),
+                                                     (18, 'AsusTuf_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (19, 'MacbookPro14_1.avif'),
+                                                     (19, 'MacbookPro14_2.avif'),
+                                                     (19, 'MacbookPro14_3.avif'),
+                                                     (19, 'MacbookPro14_4.avif'),
+                                                     (19, 'MacbookPro14_5.avif'),
+                                                     (19, 'MacbookPro14_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (20, 'MacbookAir_1.avif'),
+                                                     (20, 'MacbookAir_2.avif'),
+                                                     (20, 'MacbookAir_3.avif'),
+                                                     (20, 'MacbookAir_4.avif'),
+                                                     (20, 'MacbookAir_5.avif'),
+                                                     (20, 'MacbookAir_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (21, 'SamsungQDOled_1.avif'),
+                                                     (21, 'SamsungQDOled_2.avif'),
+                                                     (21, 'SamsungQDOled_3.avif'),
+                                                     (21, 'SamsungQDOled_4.avif'),
+                                                     (21, 'SamsungQDOled_5.avif'),
+                                                     (21, 'SamsungQDOled_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (22, 'SamsungNeoQled_1.avif'),
+                                                     (22, 'SamsungNeoQled_2.avif'),
+                                                     (22, 'SamsungNeoQled_3.avif'),
+                                                     (22, 'SamsungNeoQled_4.avif'),
+                                                     (22, 'SamsungNeoQled_5.avif'),
+                                                     (22, 'SamsungNeoQled_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (23, 'LGoled_1.avif'),
+                                                     (23, 'LGoled_2.avif'),
+                                                     (23, 'LGoled_3.avif'),
+                                                     (23, 'LGoled_4.avif'),
+                                                     (23, 'LGoled_5.avif'),
+                                                     (23, 'LGoled_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (24, 'SonyBraviaOled_1.avif'),
+                                                     (24, 'SonyBraviaOled_2.avif'),
+                                                     (24, 'SonyBraviaOled_3.avif'),
+                                                     (24, 'SonyBraviaOled_4.avif'),
+                                                     (24, 'SonyBraviaOled_5.avif'),
+                                                     (24, 'SonyBraviaOled_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (25, 'Philips48Amb_1.avif'),
+                                                     (25, 'Philips48Amb_2.avif'),
+                                                     (25, 'Philips48Amb_3.avif'),
+                                                     (25, 'Philips48Amb_4.avif'),
+                                                     (25, 'Philips48Amb_5.avif'),
+                                                     (25, 'Philips48Amb_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (26, 'SamsungTheFrame_1.avif'),
+                                                     (26, 'SamsungTheFrame_2.avif'),
+                                                     (26, 'SamsungTheFrame_3.avif'),
+                                                     (26, 'SamsungTheFrame_4.avif'),
+                                                     (26, 'SamsungTheFrame_5.avif'),
+                                                     (26, 'SamsungTheFrame_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (27, 'SamsungCrystal_1.avif'),
+                                                     (27, 'SamsungCrystal_2.avif'),
+                                                     (27, 'SamsungCrystal_3.avif'),
+                                                     (27, 'SamsungCrystal_4.avif'),
+                                                     (27, 'SamsungCrystal_5.avif'),
+                                                     (27, 'SamsungCrystal_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (28, 'SonyBraviaOledXR_1.avif'),
+                                                     (28, 'SonyBraviaOledXR_2.avif'),
+                                                     (28, 'SonyBraviaOledXR_3.avif'),
+                                                     (28, 'SonyBraviaOledXR_4.avif'),
+                                                     (28, 'SonyBraviaOledXR_5.avif'),
+                                                     (28, 'SonyBraviaOledXR_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (29, 'LGNano43_1.avif'),
+                                                     (29, 'LGNano43_2.avif'),
+                                                     (29, 'LGNano43_3.avif'),
+                                                     (29, 'LGNano43_4.avif'),
+                                                     (29, 'LGNano43_5.avif'),
+                                                     (29, 'LGNano43_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (30, 'LG8KNano_1.avif'),
+                                                     (30, 'LG8KNano_2.avif'),
+                                                     (30, 'LG8KNano_3.avif'),
+                                                     (30, 'LG8KNano_4.avif'),
+                                                     (30, 'LG8KNano_5.avif'),
+                                                     (30, 'LG8KNano_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (31, 'ultimateEars3_1.avif'),
+                                                     (31, 'ultimateEars3_2.avif'),
+                                                     (31, 'ultimateEars3_3.avif'),
+                                                     (31, 'ultimateEars3_4.avif'),
+                                                     (31, 'ultimateEars3_5.avif'),
+                                                     (31, 'ultimateEars3_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (32, 'jblCharge2_1.avif'),
+                                                     (32, 'jblCharge2_2.avif'),
+                                                     (32, 'jblCharge2_3.avif'),
+                                                     (32, 'jblCharge2_4.avif'),
+                                                     (32, 'jblCharge2_5.avif'),
+                                                     (32, 'jblCharge2_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (33, 'jblBoombox_1.avif'),
+                                                     (33, 'jblBoombox_2.avif'),
+                                                     (33, 'jblBoombox_3.avif'),
+                                                     (33, 'jblBoombox_4.avif'),
+                                                     (33, 'jblBoombox_5.avif'),
+                                                     (33, 'jblBoombox_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (34, 'Sonywh5_1.avif'),
+                                                     (34, 'Sonywh5_2.avif'),
+                                                     (34, 'Sonywh5_3.avif'),
+                                                     (34, 'Sonywh5_4.avif'),
+                                                     (34, 'Sonywh5_5.avif'),
+                                                     (34, 'Sonywh5_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (35, 'boseQuietComfort_1.avif'),
+                                                     (35, 'boseQuietComfort_2.avif'),
+                                                     (35, 'boseQuietComfort_3.avif'),
+                                                     (35, 'boseQuietComfort_4.avif'),
+                                                     (35, 'boseQuietComfort_5.avif'),
+                                                     (35, 'boseQuietComfort_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (36, 'AirpodsPro2_1.avif'),
+                                                     (36, 'AirpodsPro2_2.avif'),
+                                                     (36, 'AirpodsPro2_3.avif'),
+                                                     (36, 'AirpodsPro2_4.avif'),
+                                                     (36, 'AirpodsPro2_5.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (37, 'sonyLinkbuds_1.avif'),
+                                                     (37, 'sonyLinkbuds_2.avif'),
+                                                     (37, 'sonyLinkbuds_3.avif'),
+                                                     (37, 'sonyLinkbuds_4.avif'),
+                                                     (37, 'sonyLinkbuds_5.avif'),
+                                                     (37, 'sonyLinkbuds_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (38, 'sonySoundbar_1.avif'),
+                                                     (38, 'sonySoundbar_2.avif'),
+                                                     (38, 'sonySoundbar_3.avif'),
+                                                     (38, 'sonySoundbar_4.avif'),
+                                                     (38, 'sonySoundbar_5.avif'),
+                                                     (38, 'sonySoundbar_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (39, 'sonosArc_1.avif'),
+                                                     (39, 'sonosArc_2.avif'),
+                                                     (39, 'sonosArc_3.avif'),
+                                                     (39, 'sonosArc_4.avif'),
+                                                     (39, 'sonosArc_5.avif'),
+                                                     (39, 'sonosArc_6.avif');
+INSERT INTO product_images (product_id , images) VALUES
+                                                     (40, 'jblbarpro_1.avif'),
+                                                     (40, 'jblbarpro_2.avif'),
+                                                     (40, 'jblbarpro_3.avif'),
+                                                     (40, 'jblbarpro_4.avif'),
+                                                     (40, 'jblbarpro_5.avif'),
+                                                     (40, 'jblbarpro_6.avif');

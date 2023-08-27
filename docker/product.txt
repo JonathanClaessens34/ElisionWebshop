@@ -1,0 +1,29 @@
+PRODUCT TABEL
+*************
+
+CREATE TABLE products (
+  id int NOT NULL AUTO_INCREMENT,
+  name varchar(45) NOT NULL,
+  price double NOT NULL,
+  description varchar(45) NOT NULL,
+  color varchar(45) NOT NULL,
+  brand varchar(45) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO products (id,name,price,description,color,brand) VALUES 
+(1, 'Apple iPhone 14 128GB Midnight', 1019.00, 'Apple iPhone 14 128GB Midnight is een alleskunner.','black','APPLE'),
+
+(2, 'Apple iPhone 14 Pro 128GB Space Black', 1329.00, 'Apple iPhone 14 Pro 128GB Space Black heeft geen notch meer.','black','APPLE'),
+
+(3, 'Apple iPhone 13 128GB Groen', 909.00, "Met Apple iPhone 13 128GB Groen maak je scherpere foto's dan met zijn voorgangers.",'green','APPLE'),
+
+(4, 'Apple iPhone 13 Pro 256GB Groen', 1279.00, "Geniet van vloeiende bewegingen tijdens het scrollen of lees comfortabel een artikel dankzij het 6,1 inch scherm met ProMotion van Apple iPhone 13 Pro 256GB Groen",'green','APPLE'),
+
+(5, 'Samsung Galaxy S21 128GB Grijs 5G', 679.00, 'De Samsung Galaxy S21 128GB Grijs 5G is één van de weinige smartphones die een grote rekenkracht combineert met een handzaam formaat. Je bedient het toestel met het 6,2 inch full hd scherm gemakkelijk met één hand.','grey','SAMSUNG'),
+
+(6, 'Samsung Galaxy S22 128GB Zwart 5G', 849.00, 'De Samsung Galaxy S22 128GB Zwart 5G is één van de weinige smartphones die naast krachtig ook compact is. Het toestel past gemakkelijk in je zak en je bedient het 6,1 inch full hd scherm gemakkelijk met één hand.','black','SAMSUNG'),
+
+(7, 'Samsung Galaxy S22 Ultra 256GB Zwart 5G', 1349.00, "De Samsung Galaxy S22 Ultra 256GB Zwart 5G is een smartphone met geavanceerde camera's.",'black','SAMSUNG'),
+
+(8, 'Samsung Galaxy Z Flip 4 256GB Grijs 5G', 1149.00, "De vouwbare Samsung Galaxy Z Flip 4 256GB Grijs 5G heeft een groot 6,7 inch full hd scherm, dat je vanwege het formaat moeilijk met één hand bedient.",'grey','SAMSUNG');

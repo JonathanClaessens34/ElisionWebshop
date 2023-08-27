@@ -1,0 +1,51 @@
+  .bannerSnowEffectBox {
+    height: 250px;
+    background: linear-gradient(180deg, rgba(152,12,22,1) 0%, rgba(170,23,32,1) 35%, rgba(207,40,50,1) 67%, rgba(235,46,59,1) 93%, rgba(255,255,255,1) 100%, rgba(233,60,72,1) 100%, rgba(255,255,255,1) 100%);
+    border-radius: 10px;
+    overflow: hidden;
+    filter: drop-shadow(0 0 10px white);
+    margin-bottom: 30px;
+  }
+  
+  @function random_range($min, $max) {
+    $rand: random();
+    $random_range: $min + floor($rand * (($max - $min) + 1));
+    @return $random_range;
+  }
+  
+  .snow {
+    $total: 50;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+  
+    @for $i from 1 through $total {
+      $random-x: random(1000000) * 0.0001vw;
+      $random-x-end: $random-x;
+      $random-x-end-yoyo: $random-x; 
+      $random-yoyo-time: random_range(30000, 80000) / 100000;
+      $random-yoyo-y: $random-yoyo-time * 260px;
+      $random-scale: random(10000) * 0.0001;
+      $fall-duration: random_range(3, 8) * 1s;
+      $fall-delay: random(30) * -1s;
+  
+      &:nth-child(#{$i}) {
+        opacity: random(10000) * 0.0001;
+        transform: translate($random-x, -10px) scale($random-scale);
+        animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
+      }
+  
+      @keyframes fall-#{$i} {
+        #{percentage($random-yoyo-time)} {
+          transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
+        }
+  
+        to {
+          transform: translate($random-x-end-yoyo, 240px) scale($random-scale);
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,74 @@
+PRODUCT_IMAGES TABLE
+********************
+
+create table product_images
+(
+    product_id bigint not null,
+    images varchar(255) null,
+    constraint FKi8jnqq05sk5nkma3pfp3ylqrt
+        foreign key (product_id) references product (id)
+);
+
+INSERT INTO product_images (product_id , images) VALUES 
+(1, 'iphone14_1.avif'), 
+(1, 'iphone14_2.avif'), 
+(1, 'iphone14_3.avif'),
+(1, 'iphone14_4.avif'),
+(1, 'iphone14_5.avif'),
+(1, 'iphone14_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES 
+(2, 'iphone14PRO_1.avif'), 
+(2, 'iphone14PRO_2.avif'), 
+(2, 'iphone14PRO_3.avif'),
+(2, 'iphone14PRO_4.avif'),
+(2, 'iphone14PRO_5.avif'),
+(2, 'iphone14PRO_6.avif');
+
+
+INSERT INTO product_images (product_id , images) VALUES 
+(3, 'iphone13_1.avif'), 
+(3, 'iphone13_2.avif'), 
+(3, 'iphone13_3.avif'),
+(3, 'iphone13_4.avif'),
+(3, 'iphone13_5.avif'),
+(3, 'iphone13_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES 
+(4, 'iphone13PRO_1.avif'), 
+(4, 'iphone13PRO_2.avif'), 
+(4, 'iphone13PRO_3.avif'),
+(4, 'iphone13PRO_4.avif'),
+(4, 'iphone13PRO_5.avif');
+
+INSERT INTO product_images (product_id , images) VALUES 
+(5, 'samsungs21_1.avif'), 
+(5, 'samsungs21_2.avif'), 
+(5, 'samsungs21_3.avif'),
+(5, 'samsungs21_4.avif'),
+(5, 'samsungs21_5.avif'),
+(5, 'samsungs21_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES 
+(6, 'samsungs22_1.avif'), 
+(6, 'samsungs22_2.avif'), 
+(6, 'samsungs22_3.avif'),
+(6, 'samsungs22_4.avif'),
+(6, 'samsungs22_5.avif'),
+(6, 'samsungs22_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES 
+(7, 'samsungs22ULTRA_1.avif'), 
+(7, 'samsungs22ULTRA_2.avif'), 
+(7, 'samsungs22ULTRA_3.avif'),
+(7, 'samsungs22ULTRA_4.avif'),
+(7, 'samsungs22ULTRA_5.avif'),
+(7, 'samsungs22ULTRA_6.avif');
+
+INSERT INTO product_images (product_id , images) VALUES 
+(8, 'samsungsZFlip4_1.avif'), 
+(8, 'samsungsZFlip4_2.avif'), 
+(8, 'samsungsZFlip4_3.avif'),
+(8, 'samsungsZFlip4_4.avif'),
+(8, 'samsungsZFlip4_5.avif'),
+(8, 'samsungsZFlip4_6.avif');

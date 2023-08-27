@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+.navbarItem {
+  list-style: none;
+  border-bottom: 3px solid #EFF4FA;
+  height: 100%;
+
+}
+
+.navbarItem:hover {
+  cursor: pointer;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.navbarItemText {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexMid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexLeft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar {
+  background-color: var(--navbar-background-color);
+  height: var(--navbar-height);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.navbarIndex {
+  z-index: -1;
+}
+
+.contentOfNavbar {
+  max-width: var(--max-width-layout);
+  width: 100%;
+  margin: 0px auto;
+  padding-left: var(--main-padding);
+  padding-right: var(--main-padding);
+  height: var(--navbar-height);
+}
+
+.searchBar{
+  width: 600px;
+}
+
+.logo {
+  color: var(--main-bg-color);
+  height: 40px;
+}
+
+.outerBoxLogo {
+  height: var(--navbar-height);
+  width: 100px;
+}
+
+.dropDownMenuIcon {
+  color: white;
+  height: 30px;
+  width: 30px;
+
+}
+
+.dropDownMenuNavBar {
+  display: none;
+}
+
+.dropDownMenuNavBar:hover {
+  cursor: pointer;
+}
+
+.navbarIconBlock {
+  height: var(--navbar-height);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarIcon {
+  color: var(--navbar-text-color);
+  height: 24px;
+  width: 24px;
+}
+
+.searchIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.navbarUserInfo {
+  color: var(--navbar-text-color);
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.navbarIconItem {
+  height: 100%;
+  padding: 15px;
+}
+
+.navbarIconItem:hover {
+  cursor: pointer;
+  background-color: #32507A;
+}
+
+.navbarUserName {
+  height: 20px;
+  margin: 0;
+}
+
+.navbarUserNumber {
+  height: 20px;
+  margin: 0;
+}
+
+/*Search bar*/
+
+.search-box {
+  width: 580px;
+  height: 42px;
+  position: relative;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.search-input {
+  width: 100%;
+  height: 42px;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  padding: 15px 45px 15px 15px;
+  background-color: var(--main-bg-color);
+  color: var(--input-text-color);
+  border-radius: 17px;
+  border: none;
+  transition: all .4s;
+}
+
+.search-input:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 8px var(--shadow-box-color);
+  -moz-box-shadow: 0 1px 8px var(--shadow-box-color);
+  -webkit-box-shadow: 0 1px 8px var(--shadow-box-color);
+}
+
+.search-btn {
+  background-color: transparent;
+  display: absolute;
+  font-size: 18px;
+  padding: 6px 9px;
+  margin-left: -45px;
+  border: none;
+  color: var(--input-text-color);
+  transition: all .4s;
+  z-index: 10;
+}
+
+.search-btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: black;
+}
+
+.search-btn:focus {
+  outline: none;
+  color: black;
+}
+
+/* categorybar */
+
+.categoryBar {
+  width: 100%;
+  padding: 0;
+  height: calc(var(--navbar-height)*2);
+  position: fixed;
+  display: flex;
+  top: 0;
+  background-color: #EFF4FA;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  z-index: 1;
+}
+
+.categoryBarSmallDisplay {
+  height: 100vh;
+  display: block;
+  z-index: 0;
+}
+
+.categoryBarLgScreen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--max-width-layout);
+  margin: 0px auto;
+  padding-left: var(--main-padding);
+  padding-right: var(--main-padding);
+  padding-top: var(--navbar-height);
+
+}
+
+.categoryBarSmScreen {
+  display: none;
+  background-color: white;
+  height: 100%;
+  z-index: 50;
+}
+
+.categoryBarSmScreenBlock {
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+  animation: animate-left-to-right .3s ease-out forwards;
+}
+
+@keyframes animate-left-to-right {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.categoryBarSmScreenHeader {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid var(--lightGrey);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.categoryBarIcon {
+  font-size: 2rem;
+}
+
+.categoryBarIcon:hover {
+  cursor: pointer;
+}
+
+.categoryBarItem {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--lightGrey);
+}
+
+.categoryBarContent {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .outerBoxLogo {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbarUserInfo {
+    display: none;
+  }
+
+  .searchBar {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .categoryBar {
+    flex-direction: column;
+    z-index: 1;
+  }
+
+  .navbar {
+    height: 104px;
+    position: fixed;
+  }
+
+
+  .search-box {
+    width: 100%;
+    background-color: #EFF4FA;
+    height: 52px;
+    position: absolute;
+    padding-left: var(--main-padding);
+    padding-right: var(--main-padding);
+    top: 52px;
+    left: 0px;
+  }
+
+  .search-input {
+    border: 1px solid var(--lightGrey);
+    height: 42px;
+  }
+
+  .search-btn {
+    height: 42px;
+  }
+
+  .dropDownMenuNavBar {
+    display: flex;
+  }
+
+  .categoryBarLgScreen {
+    display: none;
+  }
+  
+  .cartIconBlock {
+    position: relative;
+  }
+  
+  
+  @media only screen and (max-width: 1200px) {
+    .outerBoxLogo{
+      width: auto;
+    }
+  }
+
+  .outerBoxLogo {
+    width: auto;
+  }
+}
+
+.cartCounter{
+  background-color: var(--button-color);
+  border-radius: 100%;
+  position: absolute;
+  height: 1.25rem;
+  width: 1.25rem;
+  right: 5px;
+  top: 0;
+  margin-top: 6px; 
+}
+.cartCounterText{
+  font-size: 14px;
+  color: var(--navbar-text-color);
+  font-weight: bold;
+  padding: 1px;
+}

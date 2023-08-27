@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --main-bg-color: #fff;
+  --logo-color: #fff;
+  --main-text-color: #000;
+  --primary-color: #00204E;
+  --secondary-color: #DE3831;
+  --navbar-background-color: #00204E;
+  --button-color: #DE3831;
+  --max-width-layout: 1328px;
+  --navbar-height: 52px;
+  --searchbar-height: 42px;
+  --navbar-text-color: white;
+  --lightGrey: #D0D0D0;
+  --input-text-color: #6c6c6c; 
+  --main-padding: 20px;
+  --shadow-box-color: #b8c6db; 
+  --main-margin-top: 130px; 
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", Helvetica, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.appContent {
+  max-width: var(--max-width-layout);
+  margin: var(--main-margin-top) auto 0 auto; 
+  padding-left: var(--main-padding);
+  padding-right: var(--main-padding);
+}
+
+.footer {
+  background-color: var(--primary-color);
+}
+
+.footerBlock {
+  max-width: 1320px;
+}
+
+
+.footerHeader {
+  color: #B9C9D0;
+}
+
+.seperator {
+  background-color: #B9C9D0;
+  height: 2px;
+}
+
+.flexBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 9px;
+  right: 0;
+  border-top: 2px solid red;
+  
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-15deg);
+}
+
+.strikethroughCart:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 8px;
+  right: 5px;
+  border-top: 2px solid #646464;
+  
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-15deg);
+}
+.cartBlock {
+  max-width: var(--max-width-layout);
+  margin: auto;
+}
+
+.orderButtonBlock {
+  box-shadow: 0px 0 10px #ccc;
+  background-color: white;
+}
+
+.adyen-checkout__button{
+  background-color: var(--button-color) !important;
+} 
+
+
+.homePageButton {
+  background-color: var(--button-color);
+}
+
+.homePageButton:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .orderButtonBlock {
+    box-shadow: none;
+  }
+}
+
